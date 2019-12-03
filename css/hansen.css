@@ -1,0 +1,223 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-image: url(../img/bg.svg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    width: 75vw;
+    height: 700px;
+    position: absolute;
+    left: 12.5vw;
+    top: 12.5vh;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
+
+
+/* .box-body .profile-pic {
+    background-image: url("/img/hancen.png");
+    width: 200px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    margin-left: 30px;
+} */
+
+.box-header nav {
+    background-color: #41406D;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 55px;
+}
+
+.box-header nav ul {
+    display: flex;
+    list-style: none;
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box-header nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    padding: 15px;
+    transition: 0.2s;
+    margin-right: 10px;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .box-header nav ul li a {
+        display: none;
+    }
+}
+
+.box-header nav ul li a:hover {
+    background-color: rgb(45, 44, 75);
+}
+
+@media (min-width: 0px) and (max-width: 767.98px) {
+    .box {
+        width: 100vw;
+        left: 0;
+        top: 0;
+    }
+}
+
+.box .box-body .social-media ul {
+    display: grid;
+    position: absolute;
+    top: 25vh;
+    list-style: none;
+    right: 0;
+}
+
+.box .box-body .social-media {
+    background-color: red;
+    width: 100%;
+}
+
+.box .box-body .social-media ul li a i {
+    color: #41406D;
+    margin-bottom: 3vh;
+    margin-right: 20px;
+    transition: 0.2s;
+    padding: 10px;
+}
+
+.box .box-body .social-media ul li a i:hover {
+    font-size: larger;
+    background-color: #41406D;
+    color: white;
+}
+
+.box .box-body .profile-pic {
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+    background-image: url(../img/profile-pic.png);
+    background-size: cover;
+}
+
+.box .box-body .vLine {
+    height: 500px;
+    border-left: 1px solid rgb(103, 102, 172);
+    box-shadow: 0px 0px 1px rgba(45, 44, 75, 0.3);
+    position: absolute;
+    left: 400px;
+    top: 120px;
+}
+
+.box .box-body .hansen-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #41406D;
+    position: absolute;
+    top: 11rem;
+    left: 27rem;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.box .box-body .hansen-name p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #41406D;
+    /* position: absolute; */
+    width: 80%;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.box .box-body .hansen-name table {
+    list-style: none;
+    font-size: 25px;
+    width: 1vw;
+}
+
+.box .box-body .hansen-name table td {
+    padding-right: 30px;
+}
+
+.levelskill-3 {
+    margin-top: 5px;
+    background-color: #41406D;
+    width: 15vw;
+    height: 25px;
+}
+
+.levelskill-4 {
+    margin-top: 5px;
+    background-color: #41406D;
+    width: 20vw;
+    height: 25px;
+}
+
+.levelskill-7 {
+    margin-top: 5px;
+    background-color: #41406D;
+    width: 35vw;
+    height: 25px;
+}
+
+.levelskill-6 {
+    margin-top: 5px;
+    background-color: #41406D;
+    width: 30vw;
+    height: 25px;
+}
+
+.box-body form {
+    position: absolute;
+    top: 80px;
+    left: 25vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    color: #41406D;
+}
+
+.box-body form br {
+    margin: 10px;
+}
+
+.box-body form input {
+    border: 2px solid #41406D;
+    width: 25vw;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.message {
+    resize: none;
+    width: 25vw;
+    height: 10vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 0px) and (max-width: 767.98px) {
+    .box-body h2 {
+        display: none;
+    }
+    .box-body form {
+        left: 0;
+    }
+    .box-body form input {
+        width: 100vw;
+    }
+    .message {
+        width: 100vw;
+    }
+}

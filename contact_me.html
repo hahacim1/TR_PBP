@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hansen Samosir</title>
+
+    <link rel="stylesheet" href="css/hansen.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/brands.min.css">
+    <link rel="stylesheet" href="css/solid.css">
+    <link rel="stylesheet" href="css/Animate.css">
+</head>
+
+<body>
+    <div class="bg"></div>
+    <div class="box animated bounceIn">
+        <div class="box-header">
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-user" style="margin-right: 10px;"></i>Biography</a></li>
+                    <li><a href="contact_me.html"><i class="fas fa-address-book" style="margin-right: 10px;"></i>Contact Me</a></li>
+                    <li><a href="mywork.html"><i class="fas fa-paint-brush" style="margin-right: 10px;"></i>My Work</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="box-body">
+            <h2 style="color: #41406D; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 80px; margin-left: 20px;">Contact Me</h2>
+            <form action="contact_me_process.php" method="POST">
+                Name: <br>
+                <input type="text" name="cm-name" id=""> <br> Email <br>
+                <input type="email" name="cm-email" id=""> <br> Message: <br>
+                <textarea name="cm-message" class="message" id=""></textarea><br>
+                <input type="submit" name="" id="" style="border: none; background-color: #41406D; color: white; margin-top: 20px;" value="Submit"><br>
+            </form>
+        </div>
+        <div class="box-footer"></div>
+    </div>
+    <script src="js/hansen.js"></script>
+</body>
+
+</html>
